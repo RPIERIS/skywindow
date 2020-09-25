@@ -109,4 +109,11 @@
   .quote {
     font-size: 14px;
   }
+  .mainsite {
+    grid-template-areas:
+    "nv nv nv nv nv nv nv nv nv nv"
+    "hd hd hd hd hd hd hd hd hd hd"
+    "mn mn mn mn mn mn mn mn mn mn"
+    "ft ft ft ft ft ft ft ft ft ft";
+  }
 }
