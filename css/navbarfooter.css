@@ -2,6 +2,7 @@
   background-color: #5a75fa;
   overflow: hidden;
   white-space: nowrap;
+  font-family: 'Chelsea Market', cursive, Arial, Helvetica, sans-serif;
 }
 
 .navbar a, .mainfooter a{
@@ -14,25 +15,22 @@
   font-weight: 500;
 }
 
-nav.navbar a:hover, footer.mainfooter a:hover {
+.navbar a:hover, .mainfooter a:hover {
   background-color: #191ae6;
 }
 
-nav.navbar a {
+.navbar a {
   float: left;
   display: block;
+  /* line-height: 1; */
 }
 
-.flex {
-  float: right;
-  display: inline-block;
-}
 
 .navbar a.brand {
   align-items: center;
-  line-height: 1;
+  line-height: 0;
   display: flex;
-  flex:auto;
+  flex:1;
   font-weight: 500;
   white-space: nowrap;
   border: none;
