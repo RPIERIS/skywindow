@@ -22,7 +22,7 @@
 .navbar a {
   float: left;
   display: block;
-  /* line-height: 1; */
+  line-height: 1;
 }
 
 

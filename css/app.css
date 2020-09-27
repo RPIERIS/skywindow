@@ -73,14 +73,14 @@
   font-family: 'Finger Paint', cursive;
   padding: 5px;
 }
-/* 
+/*
 .overlay {
   justy-items:center;
   font-size: 20px;
   text-align: center;
 } */
 
-@media screen and (max-width: 1200px){
+@media(max-width: 1200px){
   .column {
     flex: 50%;
   }
@@ -90,7 +90,7 @@
   }
 }
 
-@media screen and (max-width: 1060px) and (min-width: 600px){
+@media(max-width: 1060px){
   .column {
     flex: 50%;
     max-width: 100%;
@@ -104,7 +104,7 @@
 }
 
 
-@media screen and (max-width: 600px){
+@media(max-width: 600px){
   .column {
     flex: 100%;
     max-width: 100%;

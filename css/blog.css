@@ -84,7 +84,7 @@
   text-decoration: underline;
 }
 
-@media all and (max-width: 1000px) {
+@media(max-width: 1000px) {
   .bcontainer{
     flex-wrap: wrap;
   }
@@ -97,7 +97,7 @@
   }
 
 
-@media screen and (max-width: 600px) {
+@media(max-width: 600px) {
   .blogbody {
     grid-template-areas:
     "nv nv nv nv nv nv nv nv nv nv"
