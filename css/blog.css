@@ -56,12 +56,24 @@ figcaption {
 }
 
 .aboutme {
-  margin-left:auto;
+  margin:auto;
   flex-basis: 20%;
   padding: 10px;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
   justify-self: center;
+}
+
+.button {
+  padding: 7px;
+  border: 2px solid #9fc0f4;
+  border-radius: 6px;
+  align-items: center;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #9fc0f4;
 }
 
 .mepicture {
@@ -75,7 +87,6 @@ figcaption {
 
 .blogpic {
   width: 100%;
-
 }
 
 .blogtitle {
